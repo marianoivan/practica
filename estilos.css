@@ -1,0 +1,48 @@
+.caja1{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.caja2{
+    background-color: blue;
+    width: 100PX;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 10px 10px;
+}
+
+.caja-shadow-blurdius{
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    box-shadow: 10px 10px 5px;
+    border-radius: 10px;
+}
+
+.caja3{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    box-shadow: 10px 10px 5px 5px rgba(0,0,0,0.75);
+    border-radius: 10px;
+}
+
+
+.inset{
+    width: 100px;
+    height: 100px;
+    background-color: saddlebrown;
+    box-shadow: inset 10px 10px 10px 10px rgba(0,0,0,0.75);
+}
+
+.letra p {
+    font-family:  "Vina Sans";
+    
+}
+
+.font-we p {
+    font-weight: 500;
+}
