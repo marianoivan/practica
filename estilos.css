@@ -39,10 +39,102 @@
 }
 
 .letra p {
-    font-family:  "Vina Sans";
-    
+    font-family: 'vina sans';
+    font-size: 50px;
 }
 
 .font-we p {
-    font-weight: 500;
+    font-weight: 900;
+}
+
+.letter-spacing{
+    letter-spacing: 10px;
+    font-family: "vina sans";
+}
+
+
+.word-spacing{
+    word-spacing: 10px;
+    font-size: 30px;
+    font-family: "vina sans";
+}
+
+.line-height p{
+    line-height: 30px;
+}
+
+.text-aling{
+    text-align: center;
+
+}
+
+.text-decoration{
+    text-decoration: underline;
+}
+
+.list-style-position{
+    list-style-position: outside;
+}
+
+.list-img{
+    list-style-image: url("./full-original.jpg");
+    list-style-position: outside;
+}
+
+.overflow-box{
+    width: 100px;
+    height: 100px;
+    background: aqua;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.overflow-scroll{
+    width: 100px;
+    height: 100px;
+    background: navajowhite;
+    overflow: scroll;
+}
+
+.overflow-auto{
+    width: 100px;
+    height: 100px;
+    overflow: auto;
+    background: rosybrown;
+}
+
+.border-dashed{
+    border: 5px dashed violet;
+    padding: 10px;
+}
+
+.border-dotted{
+    border: 5px dotted gold;
+}
+
+.border-double{
+    border: 5px double greenyellow;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.border-radius{
+    border-radius:8px;
+    padding: 10px;
+    background: goldenrod;
+}
+
+.margin1{
+    width: 100px;
+    height: 100px;
+    background: violet;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+.margin2{
+    width: 100px;
+    height: 100px;
+    background: violet;
+    border-radius: 10px;
 }
